@@ -11,16 +11,17 @@ require (
 	golang.org/x/sys v0.47.0 // indirect
 	golang.org/x/telemetry v0.0.0-20260708182218-49f421fb7959 // indirect
 	lesiw.io/checker v0.16.0 // indirect
-	lesiw.io/clerk v0.2.1-0.20260726115654-97532659cfda // indirect
+	lesiw.io/clerk v0.3.0 // indirect
 	lesiw.io/errcheck v1.0.0 // indirect
-	lesiw.io/linelen v0.6.0 // indirect
+	lesiw.io/linelen v0.7.0 // indirect
 	lesiw.io/plscheck v0.20.0 // indirect
 	lesiw.io/tidytypes v0.2.0 // indirect
-	lesiw.io/tools v0.3.0 // indirect
+	lesiw.io/tools v0.8.0 // indirect
 )
 
 tool (
 	golang.org/x/tools/cmd/goimports
 	lesiw.io/tools/cmd/clerk
+	lesiw.io/tools/cmd/fmt
 	lesiw.io/tools/cmd/vet
 )

@@ -45,10 +45,7 @@ func run(pass *analysis.Pass) (any, error) {
 				brace   = pass.Fset.Position(lbrace).Line
 			)
 			if keyword != brace {
-				pass.Reportf(n.Pos(),
-					"%s header spans %d lines, exceeds the 1-line limit",
-					kind, brace-keyword+1,
-				)
+				pass.Reportf(n.Pos(), "%s header spans %d lines, exceeds the 1-line limit", kind, brace-keyword+1)
 			}
 			return true
 		})
