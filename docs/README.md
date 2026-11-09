@@ -1,3 +1,6 @@
+> [!NOTE]
+> This repository has moved to [lesiw.io/tools/analyzers/linewrap](https://github.com/lesiw/tools/tree/main/analyzers/linewrap).
+
 # lesiw.io/linewrap
 
 [![Go Reference](https://pkg.go.dev/badge/lesiw.io/linewrap.svg)](https://pkg.go.dev/lesiw.io/linewrap)
